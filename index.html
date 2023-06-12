@@ -23,6 +23,24 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .video-container {
+          position: relative;
+          padding-bottom: 56.25%; /* 16:9 aspect ratio (change this value as needed) */
+          height: 0;
+          overflow: hidden;
+        }
+        
+        .video-container video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+
 </head>
 
 <body>
@@ -318,7 +336,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/vedic.jpg" alt="">
+                        <img class="img-fluid" src="img/courses4.jpg" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>300+ Students</small>
@@ -451,6 +469,54 @@
     <!-- Testimonial End -->
 
 
+<!-- video testimonial starts-->
+<div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;"></h5>
+            <h1>What say our clints</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="" alt="">
+                    <a class="cat-overlay text-white text-decoration-none" href="">
+                        <h4 class="text-white font-weight-medium">  </h4>
+                        <span>Sahara CEO</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="" alt="">
+                    <a class="cat-overlay text-white text-decoration-none" href="">
+                        <h4 class="text-white font-weight-medium">Vastu for new House</h4>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="" alt="">
+                    <a class="cat-overlay text-white text-decoration-none" href="">
+                        <h4 class="text-white font-weight-medium">Health Relation</h4>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="" alt="">
+                    <a class="cat-overlay text-white text-decoration-none" href="">
+                        <h4 class="text-white font-weight-medium">Direction Finding </h4>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- video testimonial starts-->
+
     <!-- Blog Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
@@ -491,81 +557,7 @@
     </div>
     <!-- Blog End -->
 
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Team</h5>
-                <h1>Meet Our team</h1>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/owner.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="https://twitter.com/VastuShikhar"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/vastushikhar/"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="https://in.linkedin.com/in/vastushikhar"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Acharya Pankaj Ji</h5>
-                            <p class="m-0">Owner</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!-- Team End -->
 
     <!-- Footer Start -->
